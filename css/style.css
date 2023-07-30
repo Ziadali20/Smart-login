@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(21, 44, 54);
+}
+
+.myDiv1{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.myDiv1 h1{
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.last-container{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Forum', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+.myDiv2 h1{
+    font-size: 50px;
+}
+
+i{
+    cursor: pointer;
+    font-size: 24px;
+}

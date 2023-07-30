@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Forum&family=PT+Sans+Caption&family=Pacifico&family=Righteous&display=swap"
+        rel="stylesheet">
+
+        <title>Smart-login</title>
+
+</head>
+
+<body>
+
+    <div class="container myLogIn d-none">
+        <div class=" myDiv1 mt-5 w-75 mx-auto p-5 ">
+            <h1 class="text-center text-white fw-bolder"> Smart Login System </h1>
+
+            <input type="email" name="currentEmail" id="email" class="form-control my-3" placeholder="Enter your email">
+            <input type="password" name="currentPassword" id="password" class="form-control"
+                placeholder="Enter your password">
+
+            <button class="myLogInBtn btn btn-outline-info w-100 my-4"> Login </button>
+
+            <p class="text-white text-center"> Do you have an account? <button
+                    class="btn btn-sm btn-outline-info mySignUpAcc"> Sign up </button> </p>
+        </div>
+    </div>
+
+    <div class="container mySignUp d-block ">
+        <div class=" myDiv1 mt-5 w-75 mx-auto p-5">
+            <h1 class="text-center text-white fw-bolder"> Smart Login System </h1>
+
+            <input type="text" name="name" class="form-control my-3" placeholder="Enter your name">
+            <input type="email" name="email" class="form-control my-3" placeholder="Enter your email">
+            <input type="password" name="password" class="form-control" placeholder="Enter your password">
+
+            <button class="mySignUpBtn btn btn-outline-info w-100 my-4"> Signup </button>
+
+            <p class="text-white text-center"> You have an account? <button
+                    class="btn btn-sm btn-outline-info mySignInAcc"> Sign in </button> </p>
+        </div>
+    </div>
+
+    <div class="myHome d-none">
+        <nav class="px-5 navbar shadow-sm navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand last-container" href="#">FORM</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <i class="fa-solid fa-arrow-right-from-bracket myI"></i>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="container last-container">
+            <div class="myDiv2 text-white mx-auto text-center py-5 my-5">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
